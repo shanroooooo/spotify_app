@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "SpotifyApp",
+    "slug": "spotify-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spotifyapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.spotifyapp"
+    },
+    "plugins": [
+      "expo-av",
+      "expo-sqlite"
+    ],
+    "newArchEnabled": true
+  }
+}
